@@ -8,6 +8,11 @@ class EmbarcacionAMotor extends Barco{
 
     /**
      * constructor con parámetros para inicializar los atributos.
+     * @param matricula; matricula del barco.
+     * @param eslora; longitud del barco.
+     * @param anio; año de fabicación del barco.
+     * @param persona; objeto Persona.
+     * @param potencia; nº de caballos que tiene el motor.
      */
     public EmbarcacionAMotor(String matricula,double eslora, int anio, Persona persona, int potencia) {
         super( matricula, eslora, anio, persona);
