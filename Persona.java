@@ -9,6 +9,8 @@ class Persona {
 
     /**
      * constructor con parámetros para inicializar los atributos.
+     * @param name; nombre del propietario.
+     * @param id; id del propietario.
      */
     public Persona(String name, String id) {
         this.name = name;
